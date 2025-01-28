@@ -1,6 +1,6 @@
 # Automation project
 
-- [Node](https://nodejs.org/en/download) version v22.13.1
+- [Node](https://nodejs.org/en/download) v22.13.1
 - [Cypress](https://www.cypress.io/) v14.0.0
 
 # How to run
