@@ -1,9 +1,10 @@
 # Automation project
+## Tools used
 
 - [Node](https://nodejs.org/en/download) v22.13.1
 - [Cypress](https://www.cypress.io/) v14.0.0
 
-# How to run
+## How to run
 
 - Make sure to have Node and Cypress installed
 - Clone the project
