@@ -154,8 +154,32 @@ describe('Search for device', () => {
                 .should('be.visible')
                 .first()
                 .contains('Sauce Labs Fleece Jacket')
-
-
         })
     })
+    it('Verify default sort order', () => {
+        cy.fixture('data').then((data) => {
+
+            cy.get('[data-test="username"]')
+                .should('be.visible')
+                .type(data.username)
+
+            cy.get('[data-test="password"]')
+                .should('be.visible')
+                .type(data.password)
+
+            cy.get('[data-test="login-button"]')
+                .should('be.visible')
+                .click()
+
+            cy.get('[data-test="title"]')
+                .should('be.visible')
+                .contains('Products')
+
+            cy.get('[data-test="inventory-item-name"]')
+                .should('be.visible')
+                .first()
+                .contains('Sauce Labs Onesie')
+        })
+    })
+
 })
