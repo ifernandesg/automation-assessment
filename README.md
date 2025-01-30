@@ -12,3 +12,4 @@
 - Cypress UI should load, select E2E Testing, choose the chrome browser and hit Start E2E Testing in the navigator you selected
 - On the browser, hit loginPage.cy.js, in the Specs menu for the login related tests
 - On the browser, productPage.cy.js, in the Specs menu for the product related tests
+- There is also a test report that can be consulted
